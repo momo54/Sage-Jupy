@@ -13,6 +13,6 @@ graphs:
 -
   name: swdfsq
   uri: http://example.org/swdf-sq
-  description: Semantic Web Dog Food in SQLite
+  description: Semantic Web Dog Food in SQlite
   backend: sqlite
   database: data-sq.db
