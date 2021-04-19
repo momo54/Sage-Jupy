@@ -1,0 +1,18 @@
+name: SaGe Test server
+maintainer: Chuck Norris
+quota: 75
+max_results: 2000
+default_graph_uri: http://localhost:8000/sparql/part
+graphs:
+-
+  name: swdf
+  uri: http://example.org/swdf
+  description: Semantic Web Dog Food in HDT
+  backend: hdt-file
+  file: swdf-2012-11-28.hdt
+-
+  name: swdf-sq
+  uri: http://example.org/swdf-sq
+  description: Semantic Web Dog Food in SQLite
+  backend: sqlite
+  database: data-sq.db
