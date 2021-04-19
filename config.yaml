@@ -11,7 +11,7 @@ graphs:
   backend: hdt-file
   file: swdf-2012-11-28.hdt
 -
-  name: swdf-sq
+  name: swdfsq
   uri: http://example.org/swdf-sq
   description: Semantic Web Dog Food in SQLite
   backend: sqlite
